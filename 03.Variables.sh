@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# No space before or after equal
+
 PERSON1=Durga
 PERSON2=Prasad
 
