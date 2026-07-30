@@ -10,4 +10,10 @@ echo "Current Directory: $PWD"
 
 echo "Who is running thsi : $USER"
 
-echo "Home Directory: $Home"
+echo "Home Directory: $HOME"
+
+echo "PID of this Script: $$"
+
+sleep 50 &
+
+echo "PID of the last commed is background is : $!"
