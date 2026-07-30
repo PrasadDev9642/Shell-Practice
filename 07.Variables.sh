@@ -10,4 +10,4 @@ DATE=$(date %s)
 
 TOTAL_TIME=((DATE-START_DATE))
 
-echo "timestame executed: $TOTAL_TIME"
+echo "timestame executed: $TOTAL_TIME seconds"
