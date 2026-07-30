@@ -2,12 +2,12 @@
 
 
 
-START_DATE=$(date)
+START_DATE=$(date +%s)
 
 sleep 50
 
-DATE=$(date)
+DATE=$(date %s)
 
-TOTAL_TIME=((START_TIME-DATE))
+TOTAL_TIME=((DATE-START_DATE))
 
 echo "timestame executed: $TOTAL_TIME"
